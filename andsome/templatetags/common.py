@@ -84,9 +84,9 @@ def yes_no_img(boolean, reversed=False, alt_true='Active', alt_false='Not Active
             boolean = True
 
     if boolean:
-        return """<img src="%simg/admin/icon-yes.gif" alt="%s" />""" % (settings.STATIC_URL, alt_true)
+        return """<img src="%sadmin/img/icon-yes.gif" alt="%s" />""" % (settings.STATIC_URL, alt_true)
     else:
-        return """<img src="%simg/admin/icon-no.gif" alt="%s"/>""" % (settings.STATIC_URL, alt_false)
+        return """<img src="%sadmin/img/icon-no.gif" alt="%s"/>""" % (settings.STATIC_URL, alt_false)
 
 
 
