@@ -1,4 +1,3 @@
-{% autoescape off %} 
 <div class="form-row" {% if field1.errors or field2.errors or field3.errors %}"errors"{% endif %}>
 {% if field1.errors or field2.errors or field3.errors %}
 <ul class="errorlist">
@@ -21,4 +20,3 @@
 {% if field.help_text %}<p class="help">{{ field3.help_text }}</p>{% endif %}
 {% endif %}
 </div>
-{% endautoescape %} 
